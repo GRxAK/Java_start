@@ -46,22 +46,22 @@ public class Сalculator {
 
     }
 
-    static float sum (float x, float y) {
+    public static float sum (float x, float y) {
         float result = x + y;
         return result;
     }
 
-    static float subtraction (float x, float y) {
+    public static float subtraction (float x, float y) {
         float result = x - y;
         return  result;
     }
 
-    static float multiplication (float x, float y) {
+    public static float multiplication (float x, float y) {
         float result = x * y;
         return  result;
     }
 
-    static float division (float x, float y) {
+    public static float division (float x, float y) {
         float result = x / y;
         return  result;
     }
